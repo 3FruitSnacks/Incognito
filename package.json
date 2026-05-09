@@ -1,6 +1,7 @@
 {
   "name": "incognito",
   "version": "1.0.0",
+  "packageManager": "pnpm@9.15.9",
   "description": "Unofficial Incognito easy deployment version with TompHTTP bare server included.",
   "type": "module",
   "scripts": {
