@@ -11,7 +11,7 @@ COPY ./src/ ./src
 
 RUN corepack enable
 
-RUN --mount=type=cache,id=pnpm,target=/pnpm/store pnpm install --prod --frozen-lockfile
+RUN pnpm install --prod --frozen-lockfile
 
 EXPOSE 8080
 
